@@ -112,3 +112,28 @@ git stash pop
 write working from top of stash stack
 git stash drop
 discard the changes from top of stash stack
+
+Integrating JIRA with Git projects - 10 steps
+=========================================================
+You can connect the JIRA DVCS plugin to your organization account to scan commits and pull requests,
+creating relevant metadata and hyperlinks in any mentioned JIRA Issues.
+
+Step 1: In the upper-right corner of any page, click your profile photo, then click Settings.
+
+Step 2: In the left sidebar under Organization settings, click the name of your organization.
+
+Step 3: In the left sidebar under Developer settings, click OAuth Apps.
+
+Step 4: Click Register a new application.
+
+Step 5: Under Application name, type "JIRA".
+
+Step 6: Under Homepage URL, type the full URL to your JIRA instance.
+
+Step 7: Under Authorization callback URL, type the full URL to your JIRA instance.
+
+Step 8: Click Register application.
+
+Step 9: Under Organization owned applications, note the "Client ID" and "Client Secret" values.
+
+Step 10: Link your GitHub account with JIRA. For more information, see Atlassian's help documentation.
